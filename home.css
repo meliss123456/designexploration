@@ -1,4 +1,3 @@
-
 /*CSS Variables*/
 html{
   box-sizing: border-box;
@@ -20,6 +19,11 @@ body{
   padding: 0.6rem 1.3rem;
   text-decoration: none;
   border:0.2;
+}
+
+.btn:hover{
+  background: black;
+  color: red;
 }
 
 img{
@@ -66,7 +70,7 @@ img{
 
 .main-nav a:hover{
   background: black;
-  color: gray;
+  color: red;
 }
 
 
@@ -90,19 +94,24 @@ img{
   border-bottom: 100px;
   border-top: 100px;
   border-style: dotted;
+  padding: 20px;
+
 
 }
 
 .top_container .top_c{
-margin-top:300px
+  padding-top: 200px;
+  margin-top: 150px;
+ 
 
 }
 
 .box_container{
-  margin-top: 380px;
+  padding-top: 200px;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3,1fr);
+  margin-top: 200px;
   
 }
 
